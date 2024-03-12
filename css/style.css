@@ -1,0 +1,96 @@
+:root{
+	--menu-hover:#c41034;
+	--color-general:#000;
+	--color-titulos:#2d2d2d;
+}
+body{
+	font-size: 14px;
+	color: #FFFFFF;
+}
+header{
+	background-color: transparent;
+	padding: 5px 0;
+}
+footer{
+	background-color: #323232;
+	color: #bababa;
+	padding: 50px 0;
+	text-align: center;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.catamaran-<uniquifier> {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+#hero{
+	background-image: url("../img/bg-sliders.jpg");
+	background-position:;
+	background-size:cover;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	margin-top: -100px;	
+}
+.mustardpic{
+	width: 400px;
+	
+	margin-left: 100px;
+}
+.mustardtext{
+	margin-left: 100px;	
+}
+#hero h1{
+	font-weight:bolder;
+	font-size: 70px;
+	margin-left: 100px;
+}
+#hero p{
+	margin-left: 100px;
+	font-size: 15px;
+}
+#banners{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+Product{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+}
+#Product h5{
+	font-weight:normal;
+	font-size: 30px;
+	margin-left: 0px;
+	color: #2d2d2d;
+}
+#Product p{
+	margin-left: 0px;
+	font-size: 15px;
+	color: #2d2d2d;
+}
+.product-text{
+	margin-left: -100px;
+}
+.btn-products{
+	background-color: #FFFFFF;
+	color: #1D4C0D;
+	border: 2px solid #1D4C0D;
+	padding: 20px 40px;
+	border-radius: 40px;
+	font-weight: 600;
+	margin-right: 0px;
+	font-size: 14px;
+	align-content: center;
+}
+.btn-products:hover{
+	background-color: #1D4C0D;
+	border-color: #1D4C0D;
+	color: #fff;
+}
+.padding-prod{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
